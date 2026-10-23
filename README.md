@@ -33,11 +33,3 @@ npm run preview
 - `src/components/PhotoCard.jsx` renders the responsive image and accessible favourite control. `src/components/SearchBar.jsx` contains the labelled author search.
 - `src/index.css` loads Tailwind CSS, and `vite.config.js` registers its Vite plugin.
 
-## Five-minute screen-recording outline
-
-1. **0:00–0:45 — Run the app:** start `npm run dev`; show the gallery, loading indicator, and responsive grid.
-2. **0:45–1:30 — Search:** search for part of an author's name, change letter case, and show the empty-search state.
-3. **1:30–2:15 — Favourites:** toggle a heart, refresh the page, and show that its state persists.
-4. **2:15–3:15 — Custom hook:** explain the API request, loading/error state, response check, and abort cleanup in `useFetchPhotos.js`.
-5. **3:15–4:15 — React state and performance:** explain the reducer and localStorage persistence, then show `useCallback` and `useMemo` in `Gallery.jsx`.
-6. **4:15–5:00 — Implementation challenge:** discuss handling fetch failures and safely restoring malformed or unavailable localStorage data.
